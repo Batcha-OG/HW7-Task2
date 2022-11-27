@@ -3,7 +3,7 @@ import java.util.List;
 
 public class TeamComposite implements OlympicsTeams{
 
-    String name;
+    private String name;
     List<OlympicsTeams> olympics = new ArrayList<>();
 
     public TeamComposite(String name){

@@ -1,8 +1,8 @@
 public class TeamLeaf implements OlympicsTeams{
 
-    String name;
-    int numAth;
-    int numGold;
+    private String name;
+    private int numAth;
+    private int numGold;
 
     public TeamLeaf(String name, int numAth, int numGold){
         super();
